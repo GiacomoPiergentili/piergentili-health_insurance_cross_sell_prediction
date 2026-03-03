@@ -14,19 +14,33 @@ From a business perspective, being able to identify interested customers lets th
 
 ```
 piergentili-health_insurance_cross_sell_prediction/
-├── README.md               ← this file (project overview)
+├── README.md                        ← this file (project overview)
 ├── doc/
-│   ├── presentation.tex    ← LaTeX Beamer slides
-│   ├── presentation.pdf    ← compiled presentation
-│   └── figures/            ← figures used in the presentation
+│   ├── presentation.tex             ← LaTeX Beamer slides
+│   ├── presentation.pdf             ← compiled presentation
+│   └── figures/                     ← figures used in the presentation
+│       ├── annual_premium_response.png
+│       ├── feature_importance.png
+│       ├── previously_insured.png
+│       ├── response_by_age.png
+│       └── response_distribution.png
 └── project/
-    ├── README.md           ← installation, prerequisites, how to run
-    ├── preprocessing.ipynb ← data loading, inspection, type optimisation
-    ├── eda.ipynb           ← exploratory data analysis
-    ├── model.ipynb         ← modelling, feature engineering experiment, submission
+    ├── README.md                    ← installation, prerequisites, how to run
+    ├── preprocessing.ipynb          ← data loading, inspection, type optimisation
+    ├── eda.ipynb                    ← exploratory data analysis
+    ├── model.ipynb                  ← modelling, feature engineering experiment, submission
+    ├── pdf/                         ← notebook exports as PDF
+    │   ├── preprocessing.pdf
+    │   ├── eda.pdf
+    │   └── model.pdf
     └── data/
-        ├── old/            ← original CSV files from Kaggle
-        └── processed/      ← Parquet files, submission CSV
+        ├── old/                     ← original CSV files from Kaggle
+        │   ├── train.csv
+        │   └── test.csv
+        └── processed/               ← Parquet files, submission CSV
+            ├── train_final.parquet
+            ├── test_final.parquet
+            └── submission.csv
 ```
 
 ## Dataset
