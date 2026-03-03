@@ -73,7 +73,7 @@ The processed Parquet files are generated automatically when `preprocessing.ipyn
 
 ```bash
 git clone <repository-url>
-cd MLPW
+cd piergentili-health_insurance_cross_sell_prediction
 ```
 
 ### 2. Create a virtual environment (recommended)
@@ -105,5 +105,3 @@ Open and run the notebooks **in order**:
 1. `preprocessing.ipynb`: must be run first; it produces the Parquet files consumed by the other notebooks.
 2. `eda.ipynb`
 3. `model.ipynb`
-
-> **Tip:** Use *Kernel → Restart & Run All* to perform a clean run and ensure cells are numbered consistently from 1.
