@@ -1,7 +1,7 @@
 # Health Insurance Cross-Sell Prediction
 
 **Author:** Giacomo Piergentili  
-**Course:** Machine Learning Project Work  
+**Course:** Project Work in Machine Learning and Data Mining  
 **Date:** March 2026
 
 ## Objective
