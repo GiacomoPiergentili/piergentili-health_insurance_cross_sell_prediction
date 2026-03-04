@@ -1,2 +1,4 @@
 project/data/old/*
+!project/data/old/.gitkeep
 project/data/processed/*
+!project/data/processed/.gitkeep
